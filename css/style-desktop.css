@@ -1,0 +1,191 @@
+/*
+	Synchronous by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 5em 0em;
+	}
+	
+		.homepage #header
+		{
+			padding: 10em 0em;
+		}
+
+		#header .container
+		{
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-bottom: 3em;
+	}
+	
+		#logo h1
+		{
+			color: #FFF;
+		}
+	
+		#logo h1 a
+		{
+			display: block;
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+            text-shadow: 5px 5px 6px #000000;
+			font-size: 4em;
+			font-weight: 900;
+			color: #ffffff;
+		}
+
+		#logo span
+		{
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			color: #696969;
+            text-shadow: 2px 2px 8px #FF0000;
+		}			
+			
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+		#nav > ul > li
+		{
+			display: inline-block;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 1em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 1em;
+				outline: 0;
+				color: #323338;
+			}
+
+
+			#nav > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			#nav li.active a
+			{
+				background: #323338;
+				border-radius: 4px;
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner {
+		overflow: hidden;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	}
+
+	#banner .banner-border {
+		padding: 20px;
+		background: #FFFFFF;
+	}
+
+	#banner a img {
+		display: block;
+		width: 100%;
+	}
+
+/*********************************************************************************/
+/* Page Wrapper                                                                  */
+/*********************************************************************************/
+
+	.homepage #page {
+		overflow: hidden;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content {
+		padding: 0px 0px 0px 0px;
+	}
+
+	.twocolumn2 #content {
+	}
+
+	.onecolumn #content {
+	}
+
+	#content h2 {
+	}
+
+/*********************************************************************************/
+/* Sidebar    r                                                                  */
+/*********************************************************************************/
+
+	#sidebar1 {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#sidebar1 h2 {
+	}
+
+	#sidebar2 {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#sidebar2 h2 {
+	}
+
+/*boxes*/
+
+.titlebar   {
+    background: #585858;
+    color: #FFFFFF;
+/*    font-size: 16px;*/
+    padding: 6px 4px;
+}
+
+.box    {
+    border: 1px solid #585858;
+    padding: 10px 4px;
+    margin-bottom: 12px;
+}
